@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">汽车护士</string>
+    <string name="action_settings">设置</string>
+    <string name="pressback_tiptext">再按一次返回键退出程序</string>
+    <string name="navigate_recommend">推荐</string>
+    <string name="navigate_near">附近</string>
+    <string name="navigate_repair">报修</string>
+    <string name="navigate_message">消息</string>
+    <string name="navigate_more">更多</string>
+    <string name="title_activity_recommend">RecommendActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_near">NearActivity</string>
+    <string name="title_activity_message">MessageActivity</string>
+    <string name="title_activity_more">MoreActivity</string>
+
+</resources>

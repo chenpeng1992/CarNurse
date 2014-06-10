@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+    android:layout_gravity="bottom"
+    android:background="@drawable/navigationbar_bg">
+
+    <RadioGroup
+        android:id="@+id/navigationGroup"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/navigationbar_bg"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/rab_recommend"
+            style="@style/menu_item"
+            android:checked="true"
+            android:drawableTop="@drawable/menu_item_recommend_bg"
+            android:text="@string/navigate_recommend" />
+
+        <RadioButton
+            android:id="@+id/rab_near"
+            style="@style/menu_item"
+            android:drawableTop="@drawable/menu_item_near_bg"
+            android:text="@string/navigate_near" />
+
+        <RadioButton
+            android:id="@+id/rab_message"
+            style="@style/menu_item"
+            android:drawableTop="@drawable/menu_item_message_bg"
+            android:text="@string/navigate_message" />
+
+        <RadioButton
+            android:id="@+id/rab_more"
+            style="@style/menu_item"
+            android:drawableTop="@drawable/menu_item_more_bg"
+            android:text="@string/navigate_more" />
+    </RadioGroup>
+
+</LinearLayout>

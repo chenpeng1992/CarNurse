@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="menu_background">#138dc9</color>
+    <color name="menu_color_checked">#138dc9</color>
+    <color name="menu_color_unchecked">#000000</color>
+</resources>
